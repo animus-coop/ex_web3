@@ -17,6 +17,13 @@ defmodule ExWeb3.MixProject do
       preferred_cli_env: [
         dialyzer: :test
       ],
+      test_coverage: [tool: ExCoveralls],
+      preferred_cli_env: [
+        coveralls: :test,
+        "coveralls.detail": :test,
+        "coveralls.post": :test,
+        "coveralls.html": :test
+      ],
       dialyzer: [
         flags: [:underspecs, :unknown, :unmatched_returns],
         plt_add_apps: [:mix, :jason, :iex, :logger],
@@ -29,6 +36,15 @@ defmodule ExWeb3.MixProject do
   def application do
     [
       extra_applications: [:logger]
+    ]
+  end
+
+  defp package do
+    [
+      description: "Elixir library to connect and interact with Ethereum blockchain contracts.",
+      maintainers: ["Julian Somoza"],
+      licenses: ["MIT"],
+      links: %{"GitHub" => "https://github.com/animus-coop/ex_web3"}
     ]
   end
 

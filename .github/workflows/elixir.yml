@@ -16,7 +16,6 @@ permissions:
 
 jobs:
   build:
-
     name: Build and test
     runs-on: ubuntu-latest
 
@@ -26,7 +25,8 @@ jobs:
       uses: erlef/setup-elixir@v1
       with:
         elixir-version: '1.14.0' # Define the elixir version [required]
-        otp-version: '24.1' # Define the OTP version [required]
+        otp-version: '25' # Define the OTP version [required]
+        version-type: strict
     - name: Restore dependencies cache
       uses: actions/cache@v3
       with:
