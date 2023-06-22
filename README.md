@@ -1,5 +1,6 @@
 # ExWeb3
 
+[![Elixir CI](https://github.com/animus-coop/ex_web3/actions/workflows/elixir.yml/badge.svg)](https://github.com/animus-coop/ex_web3/actions/workflows/elixir.yml)
 [![License](https://img.shields.io/badge/License-MIT-blue)](https://github.com/animus-coop/ex_web3/blob/master/LICENSE.md)
 [![Coverage](https://img.shields.io/github/last-commit/mana-ethereum/ethereumex.svg)](https://github.com/mana-ethereum/ethereumex/commits/master)
 
