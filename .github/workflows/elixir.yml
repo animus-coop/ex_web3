@@ -16,12 +16,8 @@ permissions:
 
 jobs:
   build:
-
     name: Build and test
-    runs-on: self-hosted
-    
-    env:
-      ImageOS: ubuntu20
+    runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v3
