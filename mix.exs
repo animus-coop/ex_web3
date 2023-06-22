@@ -32,6 +32,15 @@ defmodule ExWeb3.MixProject do
     ]
   end
 
+  defp package do
+    [
+      description: "Elixir library to connect and interact with Ethereum blockchain contracts.",
+      maintainers: ["Julian Somoza"],
+      licenses: ["MIT"],
+      links: %{"GitHub" => "https://github.com/animus-coop/ex_web3"}
+    ]
+  end
+
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
