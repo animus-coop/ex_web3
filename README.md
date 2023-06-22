@@ -2,7 +2,7 @@
 
 [![Elixir CI](https://github.com/animus-coop/ex_web3/actions/workflows/elixir.yml/badge.svg)](https://github.com/animus-coop/ex_web3/actions/workflows/elixir.yml)
 [![License](https://img.shields.io/badge/License-MIT-blue)](https://github.com/animus-coop/ex_web3/blob/master/LICENSE.md)
-[![Coverage](https://img.shields.io/github/last-commit/mana-ethereum/ethereumex.svg)](https://github.com/mana-ethereum/ethereumex/commits/master)
+[![Coverage Status](https://coveralls.io/repos/github/animus-coop/ex_web3/badge.svg?branch=main)](https://coveralls.io/github/animus-coop/ex_web3?branch=main)
 
 **This library is Work in Progress.**
 

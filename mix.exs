@@ -17,6 +17,13 @@ defmodule ExWeb3.MixProject do
       preferred_cli_env: [
         dialyzer: :test
       ],
+      test_coverage: [tool: ExCoveralls],
+      preferred_cli_env: [
+        coveralls: :test,
+        "coveralls.detail": :test,
+        "coveralls.post": :test,
+        "coveralls.html": :test
+      ],
       dialyzer: [
         flags: [:underspecs, :unknown, :unmatched_returns],
         plt_add_apps: [:mix, :jason, :iex, :logger],
