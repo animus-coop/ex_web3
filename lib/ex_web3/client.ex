@@ -3,7 +3,7 @@ defmodule WEB3.Client do
 
   # alias WEB3.TransactionOptions
   # Cambia esto por la URL correcta de tu nodo Ganache
-  @ganache_url Application.get_env(:ex_web3, :url)
+  @ganache_url Application.compile_env(:ex_web3, :url)
 
   @moduledoc """
   Documentation for `ExWeb3`.
@@ -37,7 +37,7 @@ defmodule WEB3.Client do
          nonce <- Integer.parse(nonce_hex, 16) do
       {:ok, nonce}
     else
-      _ -> {:error, "Error retrieving nonce."}
+      _error -> {:error, "Error retrieving nonce."}
     end
   end
 end

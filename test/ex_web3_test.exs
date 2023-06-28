@@ -1,5 +1,6 @@
 defmodule ExWeb3Test do
-  # This tests are not mocked, so you should configure a local truffle/ganache and deploy some contract and fill below the vars.
+  # This tests are not mocked, so you should configure a local truffle/ganache
+  # and deploy some contract and fill below the vars.
   use ExUnit.Case
   alias WEB3.TransactionOptions
 
