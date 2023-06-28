@@ -1,6 +1,6 @@
 # ExWeb3
 
-[![Elixir CI](https://github.com/animus-coop/ex_web3/actions/workflows/elixir.yml/badge.svg)](https://github.com/animus-coop/ex_web3/actions/workflows/elixir.yml)
+[![Elixir CI](https://github.com/animus-coop/ex_web3/actions/workflows/elixir.yml/badge.svg?branch=main)](https://github.com/animus-coop/ex_web3/actions/workflows/elixir.yml)
 [![License](https://img.shields.io/badge/License-MIT-blue)](https://github.com/animus-coop/ex_web3/blob/master/LICENSE.md)
 [![Coverage Status](https://coveralls.io/repos/github/animus-coop/ex_web3/badge.svg?branch=main)](https://coveralls.io/github/animus-coop/ex_web3?branch=main)
 
