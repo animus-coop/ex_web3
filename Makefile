@@ -31,9 +31,9 @@ lint.ci:
 docs:
 	@mix docs
 
-#🧪 test: @ Runs all test suites
-test:
-	@mix test
+#🧪 test.all: @ Runs all test suites
+test.all:
+	@MIX_ENV=test mix test
 
 #🧪 test.cover: @ Runs mix tests and generates coverage
 test.cover:
