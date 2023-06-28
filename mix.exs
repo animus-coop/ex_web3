@@ -35,6 +35,7 @@ defmodule ExWeb3.MixProject do
   # Run "mix help compile.app" to learn about applications.
   def application do
     [
+      mod: {WEB3.Application, []},
       extra_applications: [:logger]
     ]
   end
@@ -56,6 +57,7 @@ defmodule ExWeb3.MixProject do
       {:dialyxir, "~> 1.0", only: [:dev, :test], runtime: false},
       {:jason, "~> 1.4"},
       {:excoveralls, "~> 0.10", only: :test},
+      {:finch, "~> 0.14"},
       {:ex_abi, "~> 0.6.0"}
     ]
   end
